@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="el">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ΥποΑτομική Φυσική & Τεχνολογικές Εφαρμογές · Π.Μ.Σ. Τμήματος Φυσικής Α.Π.Θ.</title>
+  <meta name="description" content="Πρόγραμμα Μεταπτυχιακών Σπουδών «Υποατομική Φυσική και Τεχνολογικές Εφαρμογές» του Τμήματος Φυσικής του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
+
+  <header class="topbar" id="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="#/">
+        <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="4" fill="currentColor"/>
+          <ellipse cx="20" cy="20" rx="17" ry="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+          <ellipse cx="20" cy="20" rx="17" ry="6.5" fill="none" stroke="currentColor" stroke-width="1.6" transform="rotate(60 20 20)"/>
+          <ellipse cx="20" cy="20" rx="17" ry="6.5" fill="none" stroke="currentColor" stroke-width="1.6" transform="rotate(-60 20 20)"/>
+        </svg>
+        <span class="brand__text">
+          <strong data-setting="Τίτλος">ΥποΑτομική Φυσική &amp; Τεχνολογικές Εφαρμογές</strong>
+          <small>Π.Μ.Σ. · Τμήμα Φυσικής Α.Π.Θ.</small>
+        </span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="nav" aria-label="Μενού">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav" aria-label="Κύρια πλοήγηση">
+        <a href="#/" data-route="home">Αρχική</a>
+        <a href="#/news" data-route="news">Ανακοινώσεις</a>
+        <a href="#/curriculum" data-route="curriculum">Πρόγραμμα Σπουδών</a>
+        <a href="#/courses" data-route="courses">Μαθήματα</a>
+        <a href="#/kanonismos" data-route="kanonismos">Κανονισμός</a>
+        <a href="#/personnel" data-route="personnel">Προσωπικό</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div class="loading" aria-live="polite">Φόρτωση…</div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <strong data-setting="Τίτλος">ΥποΑτομική Φυσική &amp; Τεχνολογικές Εφαρμογές</strong>
+        <p data-setting="Διεύθυνση"></p>
+      </div>
+      <div class="footer__links">
+        <a data-setting-href="Σύνδεσμος Τμήματος" href="https://www.physics.auth.gr" target="_blank" rel="noopener">Τμήμα Φυσικής Α.Π.Θ. ↗</a>
+        <a data-setting-mail="Email επικοινωνίας" href="#"></a>
+      </div>
+      <p class="footer__copy" data-setting="Υποσέλιδο"></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
